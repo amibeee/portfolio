@@ -1,0 +1,91 @@
+.navbar {
+    padding: 0.5rem 2rem;
+    font-family: 'Moderniz';
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary-color) !important;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
+    position: relative;
+    width: 30px;
+}
+
+.toggle-icon {
+    width: 30px;
+    height: 3px;
+    background-color: var(--primary-color);
+    margin: 6px 0;
+    display: block;
+    transition: 0.3s;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #111 !important;
+}
+
+.dark-mode .nav-link {
+    color: white !important;
+}
+
+.dark-mode .navbar-brand {
+    color: white !important;
+}
+
+
+
+
+
+/* General Scrollbar Styles */
+*::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #fd532f;
+    border-radius: 10px;
+  }
+  
+  /* Firefox-specific Styles */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #fd532f transparent;
+  }
+  
